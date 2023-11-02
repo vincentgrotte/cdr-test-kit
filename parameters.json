@@ -1,0 +1,26 @@
+{
+
+    "HOST_REGISTER": "https://127.0.0.1",
+
+    "PORT_REGISTER_DISCOVERY": "7003",
+    "PORT_REGISTER_IDP": "7001",
+    "PORT_REGISTER_INFOSEC": "7002",
+    "PORT_REGISTER_STATUS": "7004",
+
+    "URL_REGISTER_DATA_HOLDER_BRANDS": "/cdr-register/v1/banking/data-holders/brands",
+    "URL_REGISTER_DATA_HOLDER_BRANDS_STATUSES": "/cdr-register/v1/banking/data-holders/status",
+    "URL_REGISTER_DATA_HOLDER_BRANDS_SUMMARY": "/cdr-register/v1/banking/data-holders/brands/summary",
+    "URL_REGISTER_DATA_RECIPIENTS_STATUSES": "/cdr-register/v1/banking/data-recipients/status",
+    "URL_REGISTER_SOFTWARE_PRODUCTS_STATUSES": "/cdr-register/v1/banking/data-recipients/brands/software-products/status",
+    "URL_REGISTER_DATA_RECIPIENTS": "/cdr-register/v1/banking/data-recipients",
+    "URL_REGISTER_JWKS": "/idp/.well-known/openid-configuration/jwks",
+    
+    "XV_REGISTER_GET_DATA_HOLDER_BRANDS_SUMMARY": 1,
+    "XV_REGISTER_GET_DATA_HOLDER_BRANDS_STATUSES": 1,
+    "XV_REGISTER_GET_DATA_HOLDERS": 2,
+    "XV_REGISTER_GET_DATA_RECIPIENTS": 3,
+    "XV_REGISTER_GET_DATA_RECIPIENTS_STATUSES": 2,
+    "XV_REGISTER_GET_JWKS": 2,
+    "XV_REGISTER_GET_SOFTWARE_PRODUCTS_STATUSES": 2
+
+}
